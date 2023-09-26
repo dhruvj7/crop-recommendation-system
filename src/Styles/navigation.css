@@ -1,0 +1,9 @@
+.nav-right-items{
+    display: flex;
+    margin-left: 12px;
+    padding-left: 20px;
+}
+.list{
+    display: flex;
+    justify-content: flex-start;
+}
