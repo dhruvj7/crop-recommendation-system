@@ -5,5 +5,15 @@
 }
 .list{
     display: flex;
-    justify-content: flex-start;
+}
+.container-fluid{
+    width: 70%;
+}
+.nav-item{
+    margin-left: 7px;
+}
+@media (max-width: 989px) {
+    .container-fluid {
+      width: 100%;
+    }
 }

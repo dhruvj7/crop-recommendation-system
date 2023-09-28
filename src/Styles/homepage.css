@@ -1,6 +1,6 @@
 .wrapper{
     position: relative;
-    background-image: url('../../public/assets/background3.jpg');
+    background-image: url('/assets/background3.jpg');
     background-size: cover;
 }
 .heading{
@@ -33,6 +33,7 @@
     margin: 10px;
     width: 20vw;
     text-align: center;
+    text-decoration: none;
 }
 .button:hover{
     background-color: aliceblue;

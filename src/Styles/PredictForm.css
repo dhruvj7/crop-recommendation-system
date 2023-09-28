@@ -1,3 +1,36 @@
-form{
-    border: 2px solid black;
+.form-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.input-form{
+    text-align: center;
+    width: 90%;
+    background-image: url('assets/predict_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+    padding: 90px 50px;
+}
+label{
+    color:aliceblue;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+.predict-button{
+    background-color: rgb(242, 165, 32);
+    color: white;
+    padding: 8px;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 70%;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.predict-button:hover{
+    background-color: aliceblue;
+    border: 2px solid rgb(233, 166, 34);
+    color: rgb(233, 166, 34);
 }

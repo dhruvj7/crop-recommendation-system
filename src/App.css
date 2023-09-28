@@ -5,3 +5,7 @@ body{
   margin-left: 20px;
   margin-right: 20px;
 }
+.predict{
+  display: flex;
+  justify-content: center;
+}

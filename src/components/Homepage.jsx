@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Styles/homepage.css'
-import background from '/assets/background3.jpg'
+import {Link} from 'react-router-dom'
 
 function Homepage() {
   return (
@@ -12,12 +12,12 @@ function Homepage() {
                     using machine learning
                 </div>
                 <div className="homepage-buttons">
-                    <div type="button" className='button'>
+                    <Link to='/predict' className='button'>
                         Predict Now
-                    </div>  
-                    <div type="button" className='button'>
+                    </Link>  
+                    <Link to='/crop' className='button'>
                         Search Crop
-                    </div> 
+                    </Link> 
                 </div>              
             </div>
             
