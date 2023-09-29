@@ -1,25 +1,41 @@
 .crop-wrapper{
-    /* position: relative; */
-    background-image: url('assets/some.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* max-width:100%;
-    height:auto; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.some{
+    object-fit: cover;
+    width: 100%;
+}
+.background-image{
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+}
+.image-container{
+    width: 100%;
+    text-align: center;
 }
 .crop-description{
-    padding: 30px;
     display: flex;
-    /* width: 80%; */
-    padding: 30px;
-    color: aliceblue;
+    justify-content: center;
+    color: rgb(239, 172, 48);
     align-items: center;
-    justify-content: space-between;
+    margin-left: 20px;
+}
+.crop-image{
+    width: 70%;
+    padding: 20px;
+}
+.description{
+    width: 70%;
+    font-size: 1.5vw;
+    margin-right: 20px;
 }
 .crop-heading{
     text-align: center;
-    font-size: 1.7em;
+    font-size: 3vw;
     font-weight: bolder;
-}
-.image{
-    height: 200px;
 }
