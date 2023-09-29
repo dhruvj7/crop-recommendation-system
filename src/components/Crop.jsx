@@ -7,7 +7,8 @@ function Crop() {
   return (
     <div className='crop-wrapper'>
       <div className="background-image">
-        <img src={Some} className="some" alt="some image"></img>
+        <img src={Some} className="some" alt="some image"></img> 
+        {/* comment */}
       </div>
       <div className="crop-description">
         <div className='image-container'>
