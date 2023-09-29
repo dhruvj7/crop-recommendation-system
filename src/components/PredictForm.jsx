@@ -24,7 +24,7 @@ function PredictForm() {
     )
   }
   const handleSubmit =(e)=>{
-    e.preventDefault();
+    // e.preventDefault();
     const newData = { ...formData};
 
     //send new data to api to fetch data
@@ -106,7 +106,7 @@ function PredictForm() {
               </div>
             </div>
 
-            <div className='predict-button' type='submit'>
+            <div onClick={handleSubmit} className='predict-button' >
               Predict
             </div>
         </form>
