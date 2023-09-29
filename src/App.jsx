@@ -14,6 +14,7 @@ function App() {
   return (
     <>
       <Navigation />
+      {/* <Crop /> */}
       <Routes>
         <Route path='/' element={<Homepage />}></Route>
         <Route path='/predict' element={<PredictForm/>}></Route>
