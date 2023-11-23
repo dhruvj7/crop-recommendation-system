@@ -1,11 +1,14 @@
-*{
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
 body{
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-top: 20px;
+  font-family: 'Montserrat';
 }
 .predict{
   display: flex;
   justify-content: center;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }

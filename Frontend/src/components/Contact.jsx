@@ -6,11 +6,11 @@ function Contact() {
     <>
       <section className='contact-section'>
         <div className="contact-heading">
-          We would like to get in touch with you !!
+          We would like to get in touch with you :)
         </div><br></br>
         <form className="contact-form">
           <label className='contact-label'>Your name:</label> <br />
-          <input className='contact-input' type="text" placeholder="John" /><br></br>
+          <input className='contact-input' type="text" placeholder="John Doe" /><br></br>
 
           <label className='contact-label'>Your email:</label><br />
           <input className='contact-input' type="text" placeholder="xyz@gmail.com" /><br />

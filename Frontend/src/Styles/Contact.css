@@ -10,30 +10,50 @@
 }
 .contact-form{
     border: 1px solid black;
-    border-radius: 4px;
+    border-radius: 10px;
     width: 50%;
     padding: 10px;
 }
-
-.contact-label,.contact-input,.contact-textarea{
+.contact-label{
     color: black;
-    width: 60%;
-    margin: 10px;
-    border-radius: 4px;
-    height: 25px;
+    font-weight: 600;
+    font-size: 18px;
 }
+.contact-input,.contact-textarea{
+    color: black;
+    width: 50%;
+    margin: 15px;
+    height: 35px;
+    border: 1px solid rgb(95, 95, 95);
+    border-radius: 7px;
+}
+
+input.contact-input::placeholder{
+    text-align: center;
+    font-size: 14px;
+}
+
+textarea.contact-textarea::placeholder{
+    text-align: center;
+    font-size: 14px;
+}
+
 .contact-textarea{
-    height: 150px;
+    min-height: 55px;
+    max-height: 200px;
 }
 
 .contact-button{
     background-color: black;
     color: white;
     padding: 2%;
-    width: 22%;
+    width: 26%;
+    height: 50px;
     border: 1px solid black;
-    border-radius: 4px;
+    border-radius: 7px;
     margin: 10px;
+    font-weight: 600;
+    font-size: 15px;
     cursor: pointer;
 }
 

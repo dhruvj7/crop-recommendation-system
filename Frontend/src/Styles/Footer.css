@@ -1,0 +1,87 @@
+.footer{
+    margin-top: 45px;
+    gap: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #111111;
+    color: white;
+    height: auto;
+    width: 100vw;
+    min-width: 1200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer-branch{
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    width: 33.333%;
+}
+
+span.collabTitle{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+div.collabList{
+    margin-top: 15px;
+    margin-left: 7px;
+    display: flex;  
+    gap: 50px;
+}
+
+img{
+    border-radius: 7px;
+}
+
+.footer-branch .subscribe{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+span.newsTitle{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+input.emailField{
+    margin-top: 15px;
+    margin-left: 7px;
+    height: 35px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+input.emailField:focus{
+    outline: none;
+}
+
+input.emailField::placeholder{
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+span.quickTitle{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.footer-branch a{
+    margin-top: 5px;
+    margin-left: 7px;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(201, 201, 201);
+}
+
+.footer-branch a:hover{
+    color: rgb(255, 255, 255);
+}

@@ -1,7 +1,10 @@
 .wrapper{
     position: relative;
-    background-image: url('/assets/background3.jpg');
+    background-image: url('/assets/windmill.jpg');
     background-size: cover;
+    margin: 25px;
+    margin-top: 15px;
+    border-radius: 10px;
 }
 .heading{
     margin-left: 8vw;
@@ -9,8 +12,9 @@
 }
 .heading-text{
     font-size: 3.5vw;
-    color: aliceblue;
+    color: rgb(244, 244, 244);
     font-weight: bolder;
+    text-shadow: 0 0 10px #030303;
 }
 .background-image{
     width: 100%;
@@ -25,19 +29,21 @@
     flex-wrap: wrap;
 }
 .button{
-    background-color: rgb(242, 165, 32);
-    color: white;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    color: rgb(1, 1, 1);
     padding: 8px;
     border: 2px solid white;
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 10px;
     width: 20vw;
     text-align: center;
     text-decoration: none;
 }
 .button:hover{
-    background-color: aliceblue;
-    border: 2px solid rgb(233, 166, 34);
-    color: rgb(233, 166, 34);
+    background-color: rgb(7, 7, 7);
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 

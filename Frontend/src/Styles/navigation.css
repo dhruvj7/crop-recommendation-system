@@ -1,7 +1,19 @@
+.navbar{
+    margin-left: 25px;
+}
+.navbar-brand span{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 30px;
+}
 .nav-right-items{
     display: flex;
     margin-left: 12px;
     padding-left: 20px;
+}
+.nav-item span{
+    font-family: 'Montserrat';
+    font-weight: 500;
 }
 .list{
     display: flex;

@@ -54,6 +54,7 @@ function PredictForm() {
       console.error('Error making POST request:', error);
     });
   }
+  
   return (
     <div className="form-wrapper">
         <form action="" onSubmit={handleSubmit} name="inputForm" className="input-form">
@@ -142,7 +143,7 @@ function PredictForm() {
               </div>
             </div>
 
-            <div onClick={handleSubmit} className='predict-button' >
+            <div onClick={handleSubmit} className='predict-button' type='submit'>
               Predict
             </div>
         </form>
