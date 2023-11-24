@@ -1,5 +1,5 @@
-.footer{
-    margin-top: 45px;
+.footer {
+    margin-top: 25px;
     gap: 50px;
     display: flex;
     justify-content: space-between;
@@ -7,72 +7,79 @@
     color: white;
     height: auto;
     width: 100vw;
-    min-width: 1200px;
+    /* min-width: 1200px; */
     bottom: 0;
     left: 0;
     right: 0;
 }
 
-.footer-branch{
+.footer-branch {
     padding: 45px;
     display: flex;
     flex-direction: column;
     width: 33.333%;
 }
 
-span.collabTitle{
+span.collabTitle {
     font-weight: 600;
     font-size: 25px;
 }
 
-div.collabList{
+div.collabList {
     margin-top: 15px;
-    margin-left: 7px;
-    display: flex;  
-    gap: 50px;
+    margin-left: 5px;
+    display: flex;
+    gap: 20px;
 }
 
-img{
+@media (max-width: 989px) {
+    .collabList {
+      flex-wrap: wrap;
+    }
+}
+
+img {
     border-radius: 7px;
 }
 
-.footer-branch .subscribe{
+.footer-branch .subscribe {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-span.newsTitle{
+span.newsTitle {
     font-weight: 600;
     font-size: 25px;
 }
 
-input.emailField{
+input.emailField {
     margin-top: 15px;
     margin-left: 7px;
     height: 35px;
-    width: 300px;
+    /* width: 300px; */
     border: 1px solid white;
     border-radius: 7px;
 }
 
-input.emailField:focus{
+input.emailField:focus {
     outline: none;
+    padding-left: 10px;
 }
 
-input.emailField::placeholder{
+input.emailField::placeholder {
     text-align: center;
     font-size: 14px;
     font-family: 'Montserrat';
     font-weight: 500;
 }
 
-span.quickTitle{
+span.quickTitle {
     font-weight: 600;
     font-size: 25px;
 }
 
-.footer-branch a{
+.footer-branch a {
     margin-top: 5px;
     margin-left: 7px;
     text-decoration: none;
@@ -82,6 +89,6 @@ span.quickTitle{
     color: rgb(201, 201, 201);
 }
 
-.footer-branch a:hover{
+.footer-branch a:hover {
     color: rgb(255, 255, 255);
 }

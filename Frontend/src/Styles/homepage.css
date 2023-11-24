@@ -2,9 +2,13 @@
     position: relative;
     background-image: url('/assets/windmill.jpg');
     background-size: cover;
-    margin: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 15px;
     border-radius: 10px;
+}
+.overlay-wrapper{
+    background-color: rgba(0, 0, 0, 0.3);
 }
 .heading{
     margin-left: 8vw;
@@ -16,10 +20,7 @@
     font-weight: bolder;
     text-shadow: 0 0 10px #030303;
 }
-.background-image{
-    width: 100%;
-    height: 100%;
-}
+
 .homepage-buttons{
     margin-top: 65px;
     display: flex;
@@ -32,9 +33,8 @@
     font-family: 'Montserrat';
     font-weight: 600;
     background-color: rgb(255, 255, 255);
-    color: rgb(1, 1, 1);
+    color: rgb(0, 0, 0);
     padding: 8px;
-    border: 2px solid white;
     border-radius: 10px;
     margin: 10px;
     width: 20vw;
@@ -43,7 +43,5 @@
 }
 .button:hover{
     background-color: rgb(7, 7, 7);
-    border: 2px solid rgb(0, 0, 0);
     color: rgb(255, 255, 255);
 }
-

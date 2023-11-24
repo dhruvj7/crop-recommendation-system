@@ -57,55 +57,55 @@ function PredictForm() {
   
   return (
     <div className="form-wrapper">
+      <div className="form-overlay-wrapper">
         <form action="" onSubmit={handleSubmit} name="inputForm" className="input-form">
-
-            <div className="form-input row mb-3">
-              <label htmlFor="nitrogen" className="col-sm-4 col-form-label">Ratio of Nitrogen content in soil:</label>
-              <div className="col-sm-8">
-                <input type="text" 
+          <div className="form-input row mb-3">
+            <label htmlFor="nitrogen" className="col-sm-4 col-form-label">Ratio of Nitrogen content in soil:</label>
+            <div className="col-sm-8">
+              <input type="text"
                 className="form-control"
                 value={formData.nitrogen}
                 name="nitrogen"
                 onChange={handleInput}
-                ></input>
-              </div>
+              ></input>
             </div>
+          </div>
 
-            <div className="form-input row mb-3">
-              <label htmlFor="phosphorus" className="col-sm-4 col-form-label">Ratio of Phosphorus content in soil: </label>
-              <div className="col-sm-8">
-                <input type="text" 
+          <div className="form-input row mb-3">
+            <label htmlFor="phosphorus" className="col-sm-4 col-form-label">Ratio of Phosphorus content in soil: </label>
+            <div className="col-sm-8">
+              <input type="text"
                 className="form-control"
                 value={formData.phosphorus}
                 name="phosphorus"
                 onChange={handleInput}
-                ></input>
-              </div>
+              ></input>
             </div>
+          </div>
 
-            <div className="form-input row mb-3">
-              <label htmlFor="potassium" className="col-sm-4 col-form-label">Ratio of Potassium content in soil: </label>
-              <div className="col-sm-8">
-                <input type="text" 
+          <div className="form-input row mb-3">
+            <label htmlFor="potassium" className="col-sm-4 col-form-label">Ratio of Potassium content in soil: </label>
+            <div className="col-sm-8">
+              <input type="text"
                 className="form-control"
                 value={formData.potassium}
                 name="potassium"
                 onChange={handleInput}
-                ></input>
-              </div>
+              ></input>
             </div>
+          </div>
 
-            <div className="form-input row mb-3">
-              <label htmlFor="temperature" className="col-sm-4 col-form-label">Temperature (in degree Celsius): </label>
-              <div className="col-sm-8">
-                <input type="text" 
+          <div className="form-input row mb-3">
+            <label htmlFor="temperature" className="col-sm-4 col-form-label">Temperature (in degree Celsius): </label>
+            <div className="col-sm-8">
+              <input type="text"
                 className="form-control"
                 value={formData.temperature}
                 name="temperature"
                 onChange={handleInput}
-                ></input>
-              </div>
+              ></input>
             </div>
+          </div>
 
             <div className="form-input row mb-3">
               <label htmlFor="humidity" className="col-sm-4 col-form-label">Humidity : </label>
@@ -119,34 +119,35 @@ function PredictForm() {
               </div>
             </div>
 
-            <div className="form-input row mb-3">
-              <label htmlFor="ph" className="col-sm-4 col-form-label">PH value of soil: </label>
-              <div className="col-sm-8">
-                <input type="text" 
+          <div className="form-input row mb-3">
+            <label htmlFor="ph" className="col-sm-4 col-form-label">PH value of soil: </label>
+            <div className="col-sm-8">
+              <input type="text"
                 value={formData.ph}
                 className="form-control"
                 name="ph"
                 onChange={handleInput}
-                ></input>
-              </div>
+              ></input>
             </div>
+          </div>
 
-            <div className="form-input row mb-3">
-              <label htmlFor="rainfall" className="col-sm-4 col-form-label">Rainfall(in mm): </label>
-              <div className="col-sm-8">
-                <input type="text" 
+          <div className="form-input row mb-3">
+            <label htmlFor="rainfall" className="col-sm-4 col-form-label">Rainfall(in mm): </label>
+            <div className="col-sm-8">
+              <input type="text"
                 className="form-control"
                 value={formData.rainfall}
                 name="rainfall"
                 onChange={handleInput}
-                ></input>
-              </div>
+              ></input>
             </div>
+          </div>
 
-            <div onClick={handleSubmit} className='predict-button' type='submit'>
-              Predict
-            </div>
+          <div onClick={handleSubmit} className='predict-button' type='submit'>
+            Predict
+          </div>
         </form>
+      </div>
     </div>
   )
 }

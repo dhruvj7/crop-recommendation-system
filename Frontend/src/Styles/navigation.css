@@ -5,6 +5,7 @@
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 30px;
+    cursor: pointer;
 }
 .nav-right-items{
     display: flex;
@@ -13,7 +14,10 @@
 }
 .nav-item span{
     font-family: 'Montserrat';
-    font-weight: 500;
+    font-weight: 400;
+}
+.active{
+    text-decoration: underline;
 }
 .list{
     display: flex;

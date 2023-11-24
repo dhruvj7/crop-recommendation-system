@@ -1,0 +1,7 @@
+.about-wrapper{
+    margin: 20px;
+}
+.connect{
+    display: flex;
+    justify-content: space-around;
+}

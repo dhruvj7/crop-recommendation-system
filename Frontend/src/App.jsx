@@ -15,13 +15,13 @@ function App() {
     <>
       <Navigation />
       {/* <Crop /> */}
-      <Routes>
-        <Route path='/' element={<Homepage />}></Route>
-        <Route path='/predict' element={<PredictForm/>}></Route>
-        <Route path='/about' element={<About />}></Route>
-        <Route path='/contact' element={<Contact/>}></Route>
-        <Route path='/crop' element={<Crop/>}></Route>
-      </Routes>
+        <Routes>
+          <Route path='/' element={<Homepage />}></Route>
+          <Route path='/predict' element={<PredictForm/>}></Route>
+          <Route path='/about' element={<About />}></Route>
+          <Route path='/contact' element={<Contact/>}></Route>
+          <Route path='/crop' element={<Crop/>}></Route>
+        </Routes>
       <Footer />
     </>
   )
