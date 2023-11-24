@@ -3,7 +3,9 @@ import '../Styles/Crop.css'
 import bg from '/assets/crop_bg.jpg'
 import crop from '/assets/kidney_beans.jpg'
 
-function Crop() {
+function Crop({
+  cropName
+}) {
   return (
     <div className='div-wrapper'>
       <div className="crop-wrapper">
@@ -13,7 +15,7 @@ function Crop() {
           </div>
           <div className="crop-text">
             <div className="crop-heading">
-              KIDNEY BEANS
+              {cropName}
             </div>
             <br></br>
             <div className="crop-description">
