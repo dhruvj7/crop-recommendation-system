@@ -6,7 +6,6 @@ import Homepage from './components/Homepage'
 import PredictForm from './components/PredictForm'
 import About from './components/About'
 import Contact from './components/Contact'
-import Crop from './components/Crop'
 
 import { Routes, Route } from 'react-router'
  

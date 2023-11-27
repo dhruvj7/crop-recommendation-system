@@ -1,9 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import '../Styles/PredictForm.css'
 import axios from 'axios';
-import { Route } from 'react-router';
 import Crop from './Crop';
-
+import { useState,useEffect } from 'react'
 
 function PredictForm() {
   // const [data, setData] = useState({});
@@ -21,6 +20,8 @@ function PredictForm() {
 
  const [isPredicted, setIsPredicted]=useState(false);
  const [cropName, setCropName]=useState('kidney');
+ const [cropDescription, setcropDescription]=useState('Description is here');
+ const [cropImage, setcropImage]=useState('Image url');
 
   const [formData,setFormData]=useState({
     nitrogen:'',
@@ -32,10 +33,32 @@ function PredictForm() {
     rainfall:''
   })
 
+  const formatName = (name)=>{
+    return name[0].toUpperCase()+name.substr(1,name.length);
+  }
+
+  const getCropData = async(name)=>{
+    try{
+        //debugger;
+        const response = await axios.get('data.json')
+        for(let i=0; i < response.data['Crops'].length ; i++){
+          if(name == response.data['Crops'][i].name){
+            setCropName(formatName(name));
+            setcropDescription(response.data['Crops'][i].description)
+            setcropImage("assets/crop_images/"+response.data['Crops'][i].image_url)
+            setIsPredicted(true);
+            break;
+          }
+        }
+    }
+    catch(e){
+        console.log("unexpected error occured-",e)
+    }
+  }
+
   const handleInput =(e)=>{
     const fieldTargeted = e.target.name;
     const value = e.target.value;
-    // console.log(fieldTargeted,value);
     setFormData(
       {
         ...formData,
@@ -43,25 +66,23 @@ function PredictForm() {
       }
     )
   }
+
   const handleSubmit =(e)=>{
     e.preventDefault();
     const newData = { ...formData};
     setIsPredicted(true);
-
-    //send new data to api to fetch data
-    console.log(newData);
     axios
     .post('http://127.0.0.1:8000/prediction/', newData)
     .then((response) => {
-      // Handle the response from the backend here
       console.log('Response from the backend:', response.data);
-      // You can update your state or UI based on the response if needed.
+      getCropData(response.data); //response from api comes here
     })
     .catch((error) => {
       // Handle any errors here
       console.error('Error making POST request:', error);
     });
-    console.log(isPredicted)
+
+    getCropData('jute'); //response from api comes here
   }
   
   return (
@@ -160,7 +181,9 @@ function PredictForm() {
           </form>
         </div>
       </div> 
-      : <Crop cropName={cropName}/>
+      : <Crop cropName={cropName} 
+            cropImage={cropImage} 
+            cropDescription={cropDescription}/>
     }
     </>
   )

@@ -1,0 +1,114 @@
+{
+  "Crops": [
+    {
+      "name": "rice",
+      "description": "Rice, a staple food for over half of the world's population, thrives in warm climates with temperatures between 70°F and 100°F (21°C to 38°C). This versatile grain is primarily cultivated in flooded paddies, requiring ample water for growth. Ideal conditions include well-drained, fertile soil and plenty of sunlight. With a rich cultural history and diverse culinary applications, rice plays a crucial role in global agriculture and nutrition.",
+      "image_url": "rice.jpeg"
+    },
+    {
+      "name": "maize",
+      "description": "Maze, commonly known as corn, thrives in warm climates with temperatures ranging between 60°F to 95°F (15°C to 35°C). This versatile crop requires well-drained soil, ample sunlight, and consistent moisture for optimal growth. Ideal conditions include a frost-free growing season of 60 to 100 days, making it a staple in various agricultural landscapes. Maze cultivation demands careful attention to soil quality, with a preference for loamy or sandy soils. As a major global cereal, maze serves as a vital component in human and livestock diets, making its cultivation essential for food security and economic sustenance.",
+      "image_url": "maize.jpeg"
+    },
+    {
+      "name": "chickpea",
+      "description": "Chickpea is a versatile legume renowned for its nutty flavor and high nutritional content. Best grown in temperate climates, chickpeas thrive in well-drained soil with a pH range of 6.0 to 7.5. The optimal temperature for cultivation is between 70°F to 80°F (21°C to 27°C). These hardy plants require full sun exposure and moderate water, making them adaptable to various soil types. Chickpeas are an excellent source of protein, fiber, and essential nutrients, making them a staple in many cuisines worldwide.",
+      "image_url": "chickpea.jpg"
+    },
+    {
+      "name": "kidneybeans",
+      "description": "Kidney beans, scientifically known as Phaseolus vulgaris, thrive in warm climates with well-drained soil and ample sunlight. The optimal temperature for growth ranges from 70°F to 80°F (21°C to 27°C). Planting in spring after the last frost ensures a successful harvest. These legumes, rich in protein and nutrients, require minimal care but benefit from regular watering. Estimated costs for a season include seeds, soil amendments, and water expenses, averaging around $50 to $100 per plot. With proper conditions, kidney beans flourish, providing a nutritious addition to home gardens or small-scale farming ventures.",
+      "image_url": "kidneybeans.jpg"
+    },
+    {
+      "name": "pigeonpeas",
+      "description": "Pigeonpeas, scientifically known as Cajanus cajan, thrive in tropical and subtropical climates, ideally with temperatures between 77-86°F (25-30°C). These legumes prefer well-drained soil and can tolerate drought conditions. Planting should occur in full sunlight, promoting optimal growth. The estimated cost for one season of pigeonpea cultivation varies, but typically ranges from $200 to $400 per acre, covering seeds, fertilizers, pesticides, and other inputs. With their nitrogen-fixing properties and versatility in culinary uses, pigeonpeas make a valuable and cost-effective addition to sustainable agriculture.",
+      "image_url": "pigeonpea.jpg"
+    },
+    {
+      "name": "mothbeans",
+      "description": "Mothbeans, also known as Matki or Turkish Gram, thrive in warm climates with temperatures ranging from 25-35°C. Ideal soil conditions include well-drained, sandy-loam soil with a slightly acidic to neutral pH. These drought-tolerant legumes require ample sunlight for optimal growth. Cost estimates for a season depend on factors like seed prices, fertilizers, and water usage, but a modest budget for a small-scale cultivation could range from $200 to $300 per acre. Mothbeans are a nutritious and economical choice for sustainable farming, offering a protein-rich yield in suitable agroclimatic regions.",
+      "image_url": "mothbeans.jpeg"
+    },
+    {
+      "name": "mungbean",
+      "description": "Mungbean, scientifically known as Vigna radiata, is a warm-season legume cultivated for its nutritious edible beans. Thriving in temperatures between 25-35°C (77-95°F), mungbeans require well-drained soil and ample sunlight. Ideal conditions include a pH range of 6.2-7.2. With a relatively low cost of cultivation, estimated at $300-$500 per hectare for one season, this resilient crop proves cost-effective for farmers. Known for its rapid growth and versatility, mungbeans contribute significantly to sustainable agriculture and offer a profitable option for growers in suitable climates.",
+      "image_url": "Mungbeans.jpg"
+    },
+    {
+      "name": "blackgram",
+      "description": "Black gram, scientifically known as Vigna mungo, is a warm-season legume cultivated for its nutritious seeds. Thriving in temperatures between 25-35°C, it requires well-drained loamy soil and ample sunlight. Ideal for tropical climates, this pulse crop benefits from moderate rainfall and minimal waterlogging. The estimated cost for one season of black gram cultivation ranges from $300 to $500 per acre, covering seeds, fertilizers, pesticides, and other inputs. Cultivating black gram not only yields a protein-rich harvest but also contributes to sustainable agricultural practices.",
+      "image_url": "blackgram.jpg"
+    },
+    {
+      "name": "lentil",
+      "description": "Lentils, small lens-shaped legumes, thrive in well-drained soil with a pH of 6-7 and prefer cooler temperatures between 15-25°C. They require full sun exposure for optimal growth. Best suited for loamy soil, lentils appreciate moderate watering and minimal nitrogen fertilizer. With a short growing season of 90-110 days, lentils are a cost-effective crop. Estimated costs for one season, including seeds, fertilizers, and water, range from $300 to $500 per acre. This nutritious and versatile crop offers a sustainable option for farmers seeking an affordable legume with minimal input requirements.",
+      "image_url": "lentil.jpg"
+    },
+    {
+      "name": "pomegranate",
+      "description": "Pomegranate, a versatile fruit with ruby-red arils, thrives in subtropical climates. Ideal temperatures range from 75-85°F (24-29°C) for optimal growth. Plant in well-drained soil with full sun exposure. Adequate water during the growing season and a dry period during winter enhance fruit quality. Annual care includes pruning and fertilization. Estimated cost for one season, including sapling, fertilizer, and water expenses, typically ranges from $50 to $100. A rewarding investment, pomegranates yield a bountiful harvest, adding both aesthetic and culinary value to your garden.",
+      "image_url": "pomegranate.jpg"
+    },
+    {
+      "name": "banana",
+      "description": "Bananas, tropical delights, thrive in warm, humid climates. Best grown in temperatures between 75-85°F (24-29°C), they require well-drained soil, ample sunlight, and consistent moisture. Ideal conditions include a frost-free environment with rainfall or irrigation. The estimated cost for one banana plant's seasonal growth ranges from $200 to $400, covering expenses like soil amendments, fertilizers, water, and potential pest control. With proper care, this versatile fruit yields a bountiful harvest, making it a rewarding investment for those with suitable climates and a green thumb.",
+      "image_url": "banana.jpg"
+    },
+    {
+      "name": "mango",
+      "description": "Mango (Mangifera indica) is a tropical fruit renowned for its sweet, juicy flesh and aromatic flavor. Thriving in USDA zones 10-11, mangoes require temperatures between 80-100°F (27-38°C) and well-drained soil with a pH of 5.5-7.5. Ideal conditions include full sunlight and protection from frost. The estimated cost for one season of mango cultivation, encompassing land preparation, saplings, irrigation, and fertilizers, ranges from $800 to $1,200 per acre, depending on location and agricultural practices. Successful cultivation yields a bountiful harvest of this beloved tropical delight.",
+      "image_url": "mango.jpg"
+    },
+    {
+      "name": "grapes",
+      "description": "Grapes, resilient and versatile, thrive in well-drained soil and require a temperate climate with warm, dry summers and mild winters. Ideal temperatures range between 60-90°F (15-32°C). These sun-loving vines demand a good amount of sunlight to produce sweet and succulent fruit. Successful cultivation involves proper pruning, trellising, and pest management. Costs for a season can vary widely, averaging $2,000 to $4,000 per acre, encompassing expenses for vines, irrigation, fertilizers, and labor. However, the investment often pays off with a bountiful harvest of grapes, making it a rewarding venture for viticulturists.",
+      "image_url": "grapes.jpeg"
+    },
+    {
+      "name": "watermelon",
+      "description": "Watermelon, Citrullus lanatus, is a refreshing and juicy summer fruit with a crisp, sweet flesh and vibrant green rind. Ideal for warm climates, watermelons thrive in temperatures between 70-90°F (21-32°C), requiring full sun and well-drained soil. Adequate space for vines to spread is essential. The estimated cost for one season of watermelon cultivation ranges from $500 to $1,000 per acre, covering seeds, fertilizers, irrigation, and pest control. With proper care, watermelon plants reward growers with bountiful, delicious harvests, making them a popular choice for backyard gardens and commercial farming alike.",
+      "image_url": "watermelon.jpeg"
+    },
+    {
+      "name": "muskmelon",
+      "description": "Muskmelon, known for its sweet, fragrant flesh, thrives in warm climates with temperatures between 70-90°F (21-32°C). Ideal conditions include well-drained soil, ample sunlight, and consistent watering. Planting in spring after the last frost enhances growth. Estimated costs for a season may range from $100 to $300, covering seeds, soil amendments, water, and potential pest control. With proper care, muskmelons reward growers with delicious, juicy fruits, making them a flavorful addition to home gardens.",
+      "image_url": "muskmelon.jpg"
+    },
+    {
+      "name": "apple",
+      "description": "Apple, a popular fruit worldwide, thrives in temperate climates with well-drained soil and full sunlight. The ideal temperature for apple trees ranges between 60-75°F (15-24°C). Well-suited conditions include a pH level of 6-7 and sufficient moisture. The estimated cost for growing apples in one season can vary widely based on factors like location, tree variety, and care inputs. On average, expenses may range from $500 to $1,500 per acre, encompassing saplings, fertilizers, pesticides, and irrigation. Successful apple cultivation demands diligent attention to environmental factors and proper cultivation practices for a bountiful harvest.",
+      "image_url": "apple.jpeg"
+    },
+    {
+      "name": "orange",
+      "description": "Orange, a vibrant citrus fruit, thrives in subtropical climates with well-draining soil and full sunlight. Ideal temperatures range between 55°F to 100°F (13°C to 38°C). Adequate watering and protection from frost during colder months are essential. The cost of growing oranges for one season varies based on factors such as location, soil quality, and care practices. On average, expenses can range from $500 to $1,500 per acre, covering items like fertilizers, pest control, irrigation, and tree maintenance. A successful orange harvest rewards growers with juicy, flavorful fruits, embodying the essence of sun-soaked orchards.",
+      "image_url": "orange.jpg"
+    },
+    {
+      "name": "papaya",
+      "description": "Papaya, a tropical fruit renowned for its vibrant orange flesh and sweet taste, thrives in warm climates. Ideal temperatures for cultivation range from 70-90°F (21-32°C), with well-drained soil and ample sunlight. A cost estimate for one season includes seeds, fertilizer, and water expenses, totaling around $200-$300. Patience is key as papaya trees take about 6-9 months to mature, rewarding growers with a bountiful harvest and a taste of the tropics.",
+      "image_url": "papaya.jpg"
+    },
+    {
+      "name": "coconut",
+      "description": "Coconut, a tropical palm tree fruit, thrives in warm, humid climates with temperatures consistently above 80°F (27°C). Ideal conditions include well-drained soil and ample sunlight. The estimated cost of growing coconut for one season varies, influenced by factors such as location, soil quality, and water availability. On average, expenses for coconut cultivation may range from $500 to $1,500 per acre, covering seeds, fertilizers, pesticides, and labor. Successful growth yields a versatile fruit with uses in culinary, cosmetic, and industrial applications.",
+      "image_url": "coconut.jpeg"
+    },
+    {
+      "name": "cotton",
+      "description": "Cotton, a vital global crop, thrives in warm climates with temperatures between 60-95°F (15-35°C). Ideal conditions include well-drained soil and ample sunlight. This resilient fiber plant, primarily cultivated in regions like the Southern United States, India, and China, requires approximately 160-200 days to mature. Cost estimates for one season vary, considering factors like land, seeds, water, and labor, ranging from $600 to $1,200 per acre. Successful cotton cultivation demands meticulous attention to temperature, soil quality, and water management for optimal yield and fiber quality.",
+      "image_url": "cotton.jpeg"
+    },
+    {
+      "name": "jute",
+      "description": "Jute, a versatile natural fiber, is derived from the Corchorus plant. Ideal for tropical climates, it thrives in temperatures between 77-86°F (25-30°C). Well-drained, fertile soils with adequate rainfall favor optimal growth. Cultivating jute involves moderate costs, with estimated expenses for one season ranging from $500 to $800 per acre. This hardy crop not only contributes to eco-friendly products but also supports sustainable agriculture, making it a valuable choice for farmers in suitable regions.",
+      "image_url": "jute.jpg"
+    },
+    {
+      "name": "coffee",
+      "description": "Coffee, the aromatic elixir, thrives in tropical climates between 60°F and 70°F, at altitudes ranging from 2,000 to 6,000 feet. Ideal conditions include well-drained, nutrient-rich soil with a pH between 6 and 6.5. Cultivated predominantly in regions like Brazil, Colombia, and Ethiopia, coffee plants demand consistent rainfall and protection from harsh sunlight. The estimated cost of growing coffee for one season varies, but averages around $1,000 per acre, encompassing expenses such as seeds, fertilizers, and pest control. This captivating bean's journey from cultivation to cup epitomizes a delicate balance of nature and human craftsmanship.",
+      "image_url": "coffee.jpg"
+    }
+  ]
+}
