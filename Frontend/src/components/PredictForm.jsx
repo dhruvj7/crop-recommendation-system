@@ -74,15 +74,15 @@ function PredictForm() {
     axios
     .post('http://127.0.0.1:8000/prediction/', newData)
     .then((response) => {
-      console.log('Response from the backend:', response.data);
-      getCropData(response.data); //response from api comes here
+      console.log('Response from the backend:', response.data.predicted_crop );
+      getCropData(response.data.predicted_crop); //response from api comes here
     })
     .catch((error) => {
       // Handle any errors here
       console.error('Error making POST request:', error);
     });
 
-    getCropData('jute'); //response from api comes here
+    // getCropData('jute'); //response from api comes here
   }
   
   return (
@@ -94,7 +94,7 @@ function PredictForm() {
             <div className="form-input row mb-3">
               <label htmlFor="nitrogen" className="col-sm-4 col-form-label">Ratio of Nitrogen content in soil:</label>
               <div className="col-sm-8">
-                <input required type="text"
+                <input required type="number"
                   className="form-control"
                   value={formData.nitrogen}
                   name="nitrogen"
@@ -106,7 +106,7 @@ function PredictForm() {
             <div className="form-input row mb-3">
               <label htmlFor="phosphorus" className="col-sm-4 col-form-label">Ratio of Phosphorus content in soil: </label>
               <div className="col-sm-8">
-                <input required type="text"
+                <input required type="number"
                   className="form-control"
                   value={formData.phosphorus}
                   name="phosphorus"
@@ -118,7 +118,7 @@ function PredictForm() {
             <div className="form-input row mb-3">
               <label htmlFor="potassium" className="col-sm-4 col-form-label">Ratio of Potassium content in soil: </label>
               <div className="col-sm-8">
-                <input required type="text"
+                <input required type="number"
                   className="form-control"
                   value={formData.potassium}
                   name="potassium"
@@ -130,7 +130,7 @@ function PredictForm() {
             <div className="form-input row mb-3">
               <label htmlFor="temperature" className="col-sm-4 col-form-label">Temperature (in degree Celsius): </label>
               <div className="col-sm-8">
-                <input required type="text"
+                <input required type="number"
                   className="form-control"
                   value={formData.temperature}
                   name="temperature"
@@ -142,7 +142,7 @@ function PredictForm() {
               <div className="form-input row mb-3">
                 <label htmlFor="humidity" className="col-sm-4 col-form-label">Humidity : </label>
                 <div className="col-sm-8">
-                  <input required type="text" 
+                  <input required type="number" 
                   className="form-control"
                   value={formData.humidity}
                   name="humidity"
@@ -154,7 +154,7 @@ function PredictForm() {
             <div className="form-input row mb-3">
               <label htmlFor="ph" className="col-sm-4 col-form-label">PH value of soil: </label>
               <div className="col-sm-8">
-                <input required type="text"
+                <input required type="number"
                   value={formData.ph}
                   className="form-control"
                   name="ph"
@@ -166,7 +166,7 @@ function PredictForm() {
             <div className="form-input row mb-3">
               <label htmlFor="rainfall" className="col-sm-4 col-form-label">Rainfall(in mm): </label>
               <div className="col-sm-8">
-                <input required type="text"
+                <input required type="number"
                   className="form-control"
                   value={formData.rainfall}
                   name="rainfall"
@@ -175,9 +175,9 @@ function PredictForm() {
               </div>
             </div>
 
-            <div onClick={handleSubmit} className='predict-button' type='submit'>
+            <button  className='predict-button' type='submit'>
               Predict
-            </div>
+            </button>
           </form>
         </div>
       </div> 

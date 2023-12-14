@@ -5,3 +5,7 @@
     display: flex;
     justify-content: space-around;
 }
+
+.carousel-item{
+    font-weight: 500;
+}

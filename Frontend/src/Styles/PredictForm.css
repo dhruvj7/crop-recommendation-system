@@ -51,8 +51,8 @@
     text-align: center;
     text-decoration: none;
     margin-top: 60px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 28vw;
+    /* margin-right: auto; */
 }
 
 .predict-button:hover {
