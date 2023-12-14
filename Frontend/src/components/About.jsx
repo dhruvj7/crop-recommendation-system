@@ -5,51 +5,58 @@ function About() {
   return (
     <div>
       <div className='about-wrapper'>
-        <h3 className="about-heading">About us</h3>
         <div className="about-content">
           <div className="carousel-container">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+                <div className="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="assets/background3.jpg" class="d-block w-60" alt="..." />
-                    <div class="carousel-caption d-none d-md-block">
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <img  src="assets/about1.png" className="d-block w-100" alt="..." 
+                    style={{ width: '100%', height: 'auto' }}
+                    />
+                    <div className="carousel-caption d-none d-md-block">
                       <h5>Who are we ?</h5>
-                      <p>We are a NGO to provide technical help to all the farmers.</p>
+                      <p>
+                      We are a dedicated NGO committed to empowering farmers through tailored technical assistance, offering invaluable insights on optimal crop selection based on meticulous assessments of prevailing weather conditions and soil nutrient proportions. Our mission is to elevate agricultural practices by providing farmers with cutting-edge expertise, ensuring sustainable and yield-maximizing decisions. Through innovative solutions and a steadfast commitment to rural development, we strive to transform farming landscapes, promoting prosperity and resilience within the agricultural community. Join us on our journey to cultivate a brighter, more sustainable future for farmers, one informed decision at a time.                      </p>
                     </div>
                   </div>
-                  <div class="carousel-item">
-                    <img src="assets/background3.jpg" class="d-block w-70" alt="..." />
-                    <div class="carousel-caption d-none d-md-block">
+                  <div className="carousel-item">
+                    <img src="assets/about4.jpg" className="d-block w-60" alt="..." 
+                      style={{ width: '100%', height: 'auto' }}                                        />
+                    <div className="carousel-caption d-none d-md-block">
                       <h5>How we do it ?</h5>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eligendi at quis consectetur quia, nemo totam. Maxime corporis minus animi aliquid labore veritatis, cumque quas inventore sit. Consectetur vel perspiciatis vero maxime nostrum sapiente, aspernatur possimus repellendus? Perspiciatis, quidem autem. Soluta veniam fugit possimus quaerat dignissimos maxime dolorum ratione quidem tempore officiis deserunt aliquid aut, molestiae quos, voluptatem blanditiis aliquam obcaecati delectus, expedita reprehenderit voluptates esse! Ipsam, amet et. Dolore laboriosam unde obcaecati libero expedita. A dolorem expedita eligendi architecto quas ipsam tenetur laudantium labore obcaecati impedit, perspiciatis rerum aut vitae illo ratione repudiandae iusto nesciunt? Quisquam harum rerum dolorum?.</p>
+                        We leverage cutting-edge technologies and robust hardware systems to implement a highly precise machine learning algorithm—the Random Forest. Our mission revolves around addressing a fundamental query for every farmer: "Which crop to cultivate?" By seamlessly inputting essential data on weather conditions and soil nutrients, such as nitrogen, phosphorus, and oxygen, farmers gain tailored crop recommendations. We are committed to accessibility, working on innovative hardware solutions to ensure seamless data collection, even in remote villages. As an NGO dedicated to agricultural advancement, we empower farmers with data-driven insights to optimize their crop selection and yield outcomes.
+                      </p>
                     </div>
                   </div>
-                  <div class="carousel-item">
-                    <img src="assets/background3.jpg" class="d-block w-70" alt="..." />
-                    <div class="carousel-caption d-none d-md-block">
+                  <div className="carousel-item">
+                    <img src="assets/about3.jpg" className="d-block w-60" alt="..." 
+                    style={{ width: '100%', height: 'auto' , color:'black'}}/>
+                    <div className="carousel-caption d-none d-md-block">
                       <h5>Our goal ?</h5>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi soluta deleniti molestiae cupiditate error tempore itaque veniam obcaecati neque suscipit dolore eum, nisi iste architecto laboriosam consectetur est quia, veritatis nulla laudantium sunt et aut. Quaerat, dolor reprehenderit, doloribus rem architecto vero obcaecati sed aliquid velit exercitationem sequi, necessitatibus expedita?</p>
+                      <p>
+                      Our NGO's goal is to democratize agricultural technology, ensuring every farmer has access to affordable solutions. By deploying accessible technology, we aim to minimize resource wastage and optimize crop selection, thereby increasing yield production. Our overarching mission is to catalyze economic growth, especially in the primary sector, which remains a cornerstone of our economy. Through strategic interventions and innovative approaches, we aspire to empower farmers, fostering sustainability, productivity, and economic resilience in agriculture, ultimately contributing to the broader economic advancement of our nation. You can reach out to us using the given links :
+                      </p>
                       <div className="connect">
-                        <div className="facebook">facebook</div>
-                        <div className="gmail">gmail</div>
-                        <div className="instagram">instagram</div>
+                        <div className="facebook">Facebook <i className="fab fa-facebook"></i></div>
+                        <div className="gmail">Gmail <i className="fas fa-envelope"></i></div>
+                        <div className="instagram">Instagram <i className="fab fa-instagram"></i></div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
+                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span className="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
+                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span className="visually-hidden">Next</span>
                 </button>
             </div>
           </div>
